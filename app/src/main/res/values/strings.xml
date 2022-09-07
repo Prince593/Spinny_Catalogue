@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Spinny Catalogue</string>
+    <string name="email_address">Email Address</string>
+    <string name="hint_password">********</string>
+    <string name="dummy_email">Enter Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="helper_create_account">Create your account to continue</string>
+    <string name="name">Name</string>
+    <string name="dummy_name">John Doe</string>
+    <string name="error_required">*Required</string>
+    <string name="error_not_valid_email">Invalid Email Address</string>
+    <string name="password_min_error">Password should be atleast 8 characters</string>
+    <string name="already_logged_in">Already logged in as %s</string>
+    <string name="error_went_wrong">Something went wrong!</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="login_successful">Logged in successfully!</string>
+    <string name="wrong_password">Wrong Password</string>
+    <string name="account_not_found">Account doesn\'t exist</string>
+
+    <string-array name="carMake">
+        <item>Select Car Make</item>
+    </string-array>
+
+    <string-array name="carModel">
+        <item>Select Car Model</item>
+    </string-array>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "170517257421",
+    "project_id": "spinnycatalogue",
+    "storage_bucket": "spinnycatalogue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170517257421:android:911a2c1c511761269a5d84",
+        "android_client_info": {
+          "package_name": "com.spinnycatalogue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170517257421-ugfqn54vbd2143hbf7l9g23p3v7fepm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spinnycatalogue",
+            "certificate_hash": "b63bf5e0d295c741c1304da4d7c9c374bb10bd7f"
+          }
+        },
+        {
+          "client_id": "170517257421-uecplnfssdkcs84jfl7qeici7g900dlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3d9NvLuYKlcCC21_dzSyLJo83__mwomo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170517257421-uecplnfssdkcs84jfl7qeici7g900dlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

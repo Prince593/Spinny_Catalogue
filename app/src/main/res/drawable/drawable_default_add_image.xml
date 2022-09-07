@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/primaryColor"/>
+
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ic_round_add_circle_white_24"
+        android:top="@dimen/_12sdp"
+        android:start="@dimen/_12sdp"
+        android:end="@dimen/_12sdp"
+        android:bottom="@dimen/_12sdp"/>
+
+</layer-list>

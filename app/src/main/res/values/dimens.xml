@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_button_primary">@dimen/_49sdp</dimen>
+    <dimen name="corner_radius_btn_primary">@dimen/_6sdp</dimen>
+</resources>

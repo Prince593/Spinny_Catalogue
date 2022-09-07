@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primaryColor"
+        tools:context=".views.activities.MainActivity">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_12sdp"
+            android:text="Dashboard"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            app:fontFamily="@font/poppins_bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@drawable/round_bg_gray"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textDashboard">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAddCar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardElevation="@dimen/_2sdp"
+                app:contentPadding="@dimen/_12sdp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_round_add_circle_24"
+                    android:drawablePadding="@dimen/_12sdp"
+                    android:gravity="center_vertical"
+                    android:text="Add a new car"
+                    android:textColor="@color/black"
+                    app:fontFamily="@font/poppins_medium" />
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAddedCars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardElevation="@dimen/_2sdp"
+                app:contentPadding="@dimen/_12sdp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_round_list_24"
+                    android:drawablePadding="@dimen/_12sdp"
+                    android:gravity="center_vertical"
+                    android:text="List of added cars"
+                    android:textColor="@color/black"
+                    app:fontFamily="@font/poppins_medium" />
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardElevation="@dimen/_2sdp"
+                app:contentPadding="@dimen/_12sdp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_round_logout_24"
+                    android:drawablePadding="@dimen/_12sdp"
+                    android:gravity="center_vertical"
+                    android:text="Logout"
+                    app:drawableTint="@android:color/holo_red_light"
+                    android:textColor="@android:color/holo_red_light"
+                    app:fontFamily="@font/poppins_medium" />
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

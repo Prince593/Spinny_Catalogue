@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SpinnyCatalogue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+         <item name="fontFamily">@font/poppins</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bottomsheet_round</item>
+    </style>
+
+
+
+    <!--Input Text Style-->
+    <style name="InputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeWidth">0.05dp</item>
+        <item name="boxStrokeWidthFocused">0.2dp</item>
+        <item name="boxStrokeColor">@color/darker_gray</item>
+        <item name="boxBackgroundColor">@color/input_background_color</item>
+        <item name="android:shadowColor">#DFDFDF</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="startIconTint">@color/primaryColor</item>
+        <item name="endIconTint">@color/primaryColor</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_4sdp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_4sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_4sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_4sdp</item>
+        <item name="hintAnimationEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="PlaceHolderTextInput" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/darker_gray</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:layout_marginStart">@dimen/_1sdp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+
+    <color name="input_background_color">#FFF8F9</color>
+    <color name="darker_gray">#656565</color>
+</resources>
